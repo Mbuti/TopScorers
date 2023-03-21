@@ -49,7 +49,7 @@ public class TopScorers {
             }
         }
 
-        Collections.sort(Topscorers, Comparator.comparing(Scorer::getScore));
+        Collections.sort(Topscorers, Comparator.comparing(Scorer::getName));
         return Topscorers;
     }
 
